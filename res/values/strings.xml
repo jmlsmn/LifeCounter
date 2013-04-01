@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LifeCounter</string>
+    <string name="start_title">Life Counter</string>
+    <string name="start_button">NEW GAME</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="title_activity_game_type">GameTypeActivity</string>
+    <string name="standard_button">STANDARD</string>
+    <string name="commander_button">COMMANDER</string>
+    <string name="custom_button">CUSTOM</string>
+    <string name="game_type_title">Game Type</string>
+    <string name="add_one">+1</string>
+    <string name="subtract_one">-1</string>
+    <string name="add_five">+5</string>
+    <string name="subtract_five">-5</string>
+    <string name="one_player">ONE</string>
+    <string name="two_player">TWO</string>
+    <string name="three_player">THREE</string>
+    <string name="four_player">FOUR</string>
+    <string name="player_count_title">Player Count</string>
+    <string name="title_activity_game_setup">GameSetupActivity</string>
+    <string name="edit_profiles">EDIT PROFILES</string>
+    <string name="edit_players">EDIT PLAYERS</string>
+    <string name="new_profile">NEW PROFILE</string>
+    <string name="edit_profiles_title">Profiles</string>
+    <string name="edit_players_title">Players</string>
+    <string name="new_player">NEW PLAYER</string>
+    <string name="title_activity_edit_players">EditPlayersActivity</string>
+    <string name="title_activity_edit_profiles">EditProfilesActivity</string>
+    <string name="title_activity_multiplayer_life_counter">MultiplayerLifeCounterActivity</string>
+    <string name="title_activity_database_handler">DatabaseHandler</string>
+    <string name="title_activity_player">Player</string>
+    <string name="cancel">CANCEL</string>
+    <string name="history">HISTORY</string>
+    <string name="apply_to_all">APPLY TO ALL</string>
+    <string name="apply_to_opponents">APPLY TO OPPS</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="menu_dice">Dice</string>
+    <string name="menu_history">History</string>
+    <string name="menu_new_game">New Game</string>
+    <string name="coin">COIN</string>
+    <string name="d4">D4</string>
+    <string name="d6">D6</string>
+    <string name="d10">D10</string>
+    <string name="d20">D20</string>
+    <string name="apply">apply</string>
+
+</resources>

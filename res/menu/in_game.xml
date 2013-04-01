@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/menu_new_game"
+        android:title="@string/menu_new_game"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    
+    <item android:id="@+id/menu_dice"
+        android:title="@string/menu_dice"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+        
+    <item android:id="@+id/menu_history"
+        android:title="@string/menu_history"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    
+    <item android:id="@+id/menu_settings"
+        android:title="@string/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

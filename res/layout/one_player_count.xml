@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:weightSum="5">
+    	<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical" >
+        
+	    <LinearLayout
+	        xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:baselineAligned="false"
+	        android:orientation="horizontal" >
+			<TextView
+			    android:id="@+id/mainLife"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:gravity="center_horizontal"
+			    android:includeFontPadding="false"
+			    android:padding="0sp"
+			    android:textSize="225sp" />
+		</LinearLayout>
+		
+		<RelativeLayout
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >	   
+		    
+		    <View
+		        android:id="@+id/strut"
+		        android:layout_width="0dp"
+		        android:layout_height="0dp"
+		        android:layout_centerHorizontal="true" />
+		    <TextView
+		        android:id="@+id/txtLeftLife"
+			    android:layout_width="0dp"
+			    android:layout_height="wrap_content"
+			    android:layout_alignRight="@id/strut"
+			    android:layout_alignParentLeft="true"
+			    android:gravity="center"
+			    android:includeFontPadding="false"
+			    android:padding="0sp"
+			    android:textSize="75sp" />
+		    
+		    <TextView
+		        android:id="@+id/txtRightLife"
+			    android:layout_width="0dp"
+			    android:layout_height="wrap_content"
+			    android:layout_alignLeft="@id/strut"
+			    android:layout_alignParentRight="true"
+			    android:gravity="center"
+			    android:includeFontPadding="false"
+			    android:padding="0sp"
+			    android:textSize="75sp" />
+	    </RelativeLayout>
+	</LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+        <LinearLayout
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="match_parent"
+		    android:layout_height="0dip"
+		    android:layout_weight="1"
+		    android:baselineAligned="false"
+		    android:orientation="horizontal" >	
+		    
+			<Button
+			    android:id="@+id/btnAddOne"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:text="@string/add_one" />
+		</LinearLayout>
+		
+        <LinearLayout
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="match_parent"
+		    android:layout_height="0dip"
+		    android:layout_weight="1"
+		    android:baselineAligned="false"
+		    android:orientation="horizontal" >	
+		
+			<Button
+			    android:id="@+id/btnSubtractOne"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:text="@string/subtract_one" />
+		</LinearLayout>
+		
+		<LinearLayout
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="match_parent"
+		    android:layout_height="0dip"
+		    android:layout_weight="1"
+		    android:baselineAligned="false"
+		    android:orientation="horizontal" >
+		
+			<Button
+			    android:id="@+id/btnConfirm"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:text="@string/confirm" />
+		</LinearLayout>
+	</LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+		
+        <LinearLayout
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="match_parent"
+		    android:layout_height="0dip"
+		    android:layout_weight="1"
+		    android:baselineAligned="false"
+		    android:orientation="horizontal" >	
+		
+			<Button
+			    android:id="@+id/btnAddFive"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:text="@string/add_five" />
+		</LinearLayout>
+		
+		<LinearLayout
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="match_parent"
+		    android:layout_height="0dip"
+		    android:layout_weight="1"
+		    android:baselineAligned="false"
+		    android:orientation="horizontal" >	
+		
+			<Button
+			    android:id="@+id/btnSubtractFive"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:text="@string/subtract_five" />
+		</LinearLayout>
+		
+		<LinearLayout
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="match_parent"
+		    android:layout_height="0dip"
+		    android:layout_weight="1"
+		    android:baselineAligned="false"
+		    android:orientation="horizontal" >	
+		
+			<Button
+			    android:id="@+id/btnCancel"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:text="@string/cancel" />
+		</LinearLayout>	
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fourp_score_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	<TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_weight="1" >
+		<TextView
+		    android:id="@+id/txtOnePlayer"
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="1"
+		    android:gravity="center_vertical"
+		    android:padding="0dp"
+		    android:includeFontPadding="false"
+		    android:textSize="165sp"/>
+		<TextView
+		    android:id="@+id/txtTwoPlayer"
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="1"
+		    android:gravity="center_vertical"
+		    android:includeFontPadding="false"
+		    android:padding="0dp"
+		    android:textSize="165sp"
+		    android:layout_column="1" />
+	</TableRow>
+	<TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_weight="1" >
+		<TextView
+		    android:id="@+id/txtThreePlayer"
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="1"
+		    android:gravity="center_vertical"
+		    android:includeFontPadding="false"
+		    android:padding="0dp"
+		    android:textSize="165sp" />
+		<TextView
+		    android:id="@+id/txtFourPlayer"
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="1"
+		    android:gravity="center_vertical"
+		    android:includeFontPadding="false"
+		    android:padding="0dp"
+		    android:textSize="165sp"
+		    android:layout_column="1" />
+	</TableRow>
+</TableLayout>
